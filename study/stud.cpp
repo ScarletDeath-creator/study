@@ -28,6 +28,11 @@ public: // интерфейс объекта
         }
     }
 
+    int GetX()
+    {
+        return x;
+    }
+
     void SetY(int c)
     {
         if (c >= 0)
@@ -35,6 +40,12 @@ public: // интерфейс объекта
             y = c;
         }
     }
+
+    int GetY()
+    {
+        return y;
+    }
+
 
     //  ------------------ методы аксессоры
     void SetSymbol(char sym) // setter
